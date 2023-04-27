@@ -7,16 +7,19 @@
     <title>Trigger</title>
     <link rel="shortcut icon" href="img/alexcgdesign.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Acerca de</a>
-            <a href="#">Portafolio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
-
+    <header id="home">
+        <nav class="navMain">
+            <a href="#home">Inicio</a>
+            <a href="#about">Acerca de</a>
+            <a href="#proyectos">Portafolio</a>
+            <a href="#red">Clientes</a>
+            <a href="#certificaciones">Certificaciones</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <section class="textos-header">
             <h1>La magia de la inovacion</h1>
@@ -32,7 +35,7 @@
 
 
     <main>
-        <section class="contenedor sobre-nosotros">
+        <section class="contenedor sobre-nosotros" id="about">
             <h2 class="titulo">Qué es Trigger</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
@@ -49,7 +52,7 @@
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section class="portafolio" id="proyectos">
             <div class="contenedor">
                 <h2 class="titulo">Portafolio</h2>
                 <div class="galeria-port">
@@ -63,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <section class="clientes contenedor">
+        <section class="clientes contenedor" id="red">
             <h2 class="titulo">¿Quienes nos recomiendan?</h2>
             <div class="cards">
                 <div class="card">
@@ -73,9 +76,17 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
                     </div>
                 </div>
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Name</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                    </div>
+                </div>
+                
             </div>
         </section>
-        <section class="about-services">
+        <section class="about-services" id="certificaciones">
             <div class="contenedor">
                 <h2 class="titulo">Habilidades y Certificaciones</h2>
                 <div class="servicio-cont">
@@ -93,15 +104,14 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="contenedor-footer">
+    <footer id="contacto">
+        <div class="contenedor-footer" >
             <div class="content-foo">
-                <h4>LinkedIn</h4>
-                <p><a>www.linkedin.com/in/omarOsorio1106</a></p>
+                
+                <a href="https://www.linkedin.com/in/omarosorio1106"><h4>LinkedIn</h4></a>
             </div>
             <div class="content-foo">
-                <h4>Email</h4>
-                <p>triggeruseromar@gmail.com</p>
+                <a href="mailto:triggeruseromar@gmail.com"><h4>Email</h4></a>
             </div>
         </div>
         <h2 class="titulo-final">&copy; Trigger | Omar Osorio</h2>
